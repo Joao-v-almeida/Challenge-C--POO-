@@ -11,9 +11,11 @@ namespace Characters
             return $"{this.CharacterName} attacked with his two swords.";
         }
 
-        public string? SpecialAttack(int up)
+        public string? SpecialAttack()
         {
-            return $"{this.CharacterName} attacked with two swords with {up} damage bonus.";
+            int SpecialAttackUp = 120;
+            
+            return $"{this.CharacterName} attacked with two swords with {SpecialAttackUp} damage bonus.";
         }
     }
 }

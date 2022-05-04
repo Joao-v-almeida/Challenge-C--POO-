@@ -13,7 +13,10 @@ namespace Characters
 
         public string? Attack(int up)
         {
-            return $"{this.CharacterName} attacked magic with bonus {up}.";
+            if (up > 5 )
+                return $"{this.CharacterName} attacked magic with {up} strong bonus.";
+            else
+                return $"{this.CharacterName} attacked magic with {up} strong weak.";
         }
     }
 }
