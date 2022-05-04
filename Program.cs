@@ -1,7 +1,11 @@
 ﻿using System;
 using Characters;
 
-Wizard wizard = new Wizard("Jennica", 24, "White Wizard");
+Boss crocodile = new Boss("Crocodile", 50, "Hard Boss");
+Wizard jennica = new Wizard("Jennica", 24, "White Wizard");
 
-Console.WriteLine(wizard.Attack());
-Console.WriteLine(wizard.Attack(20));
+// Jennica Attack.
+Console.WriteLine(jennica.Attack());
+
+// Crocodile Special Attack.
+Console.WriteLine(crocodile.SpecialAttack(250));

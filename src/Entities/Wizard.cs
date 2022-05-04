@@ -8,7 +8,7 @@ namespace Characters
 
         public override string? Attack()
         {
-            return $"{this.CharacterName} attacked with  magic.";
+            return $"{this.CharacterName} attacked with magic.";
         }
 
         public string? Attack(int up)
